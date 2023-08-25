@@ -40,6 +40,7 @@
 		65551DF12A8EDEAA0092589F /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 65551DF02A8EDEAA0092589F /* FirebaseRemoteConfigSwift */; };
 		65551DF32A8EDEAA0092589F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 65551DF22A8EDEAA0092589F /* FirebaseStorage */; };
 		65551DF52A8EDEAA0092589F /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 65551DF42A8EDEAA0092589F /* FirebaseStorageCombine-Community */; };
+		655B116F2A99638E0034FF1C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 655B116E2A99638E0034FF1C /* README.md */; };
 		65B2AB5B2A898A5400A3A989 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65B2AB5A2A898A5400A3A989 /* GoogleService-Info.plist */; };
 		65F2217C2A92A17300CD3117 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F2217B2A92A17300CD3117 /* FirebaseManager.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		6524C2E62A88423F005121AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6524C2E92A88423F005121AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		653422F32A92481700958217 /* MainMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
+		655B116E2A99638E0034FF1C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		65B2AB5A2A898A5400A3A989 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		65F2217B2A92A17300CD3117 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 		6524C2E12A88423D005121AF /* SwiftUIFireBaseChat */ = {
 			isa = PBXGroup;
 			children = (
+				655B116E2A99638E0034FF1C /* README.md */,
 				65F2217A2A92A15500CD3117 /* Utils */,
 				653422F22A9247F600958217 /* MainMessages */,
 				6524C2E22A88423D005121AF /* SwiftUIFireBaseChatApp.swift */,
@@ -249,6 +252,7 @@
 			files = (
 				6524C2EA2A88423F005121AF /* Preview Assets.xcassets in Resources */,
 				6524C2E72A88423F005121AF /* Assets.xcassets in Resources */,
+				655B116F2A99638E0034FF1C /* README.md in Resources */,
 				65B2AB5B2A898A5400A3A989 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
