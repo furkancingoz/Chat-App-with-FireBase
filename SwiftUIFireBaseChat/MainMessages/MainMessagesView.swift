@@ -47,7 +47,7 @@ struct MainMessagesView: View {
         NavigationView {
             
             VStack {
-                Text("CURRRENT USER İD: \(vm.errorMessage)")
+                Text("Current user id: \(vm.errorMessage)")
                 customNavBar
                 messagesView
             }
