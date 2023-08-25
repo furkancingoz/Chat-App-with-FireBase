@@ -99,6 +99,7 @@
 		6524C2D62A88423D005121AF = {
 			isa = PBXGroup;
 			children = (
+				655B116E2A99638E0034FF1C /* README.md */,
 				6524C2E12A88423D005121AF /* SwiftUIFireBaseChat */,
 				6524C2E02A88423D005121AF /* Products */,
 				65551DBE2A8EDD530092589F /* Frameworks */,
@@ -116,14 +117,12 @@
 		6524C2E12A88423D005121AF /* SwiftUIFireBaseChat */ = {
 			isa = PBXGroup;
 			children = (
-				655B116E2A99638E0034FF1C /* README.md */,
 				65F2217A2A92A15500CD3117 /* Utils */,
 				653422F22A9247F600958217 /* MainMessages */,
-				6524C2E22A88423D005121AF /* SwiftUIFireBaseChatApp.swift */,
-				6524C2E42A88423D005121AF /* LoginView.swift */,
+				655B11722A99645E0034FF1C /* mainview */,
+				655B11702A9964240034FF1C /* Login */,
 				65B2AB5A2A898A5400A3A989 /* GoogleService-Info.plist */,
 				6524C2E62A88423F005121AF /* Assets.xcassets */,
-				6514F1BB2A8A2506009F8E23 /* ImagePicker.swift */,
 				6524C2E82A88423F005121AF /* Preview Content */,
 			);
 			path = SwiftUIFireBaseChat;
@@ -150,6 +149,31 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		655B11702A9964240034FF1C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6524C2E42A88423D005121AF /* LoginView.swift */,
+				655B11712A9964370034FF1C /* Image Pick. */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		655B11712A9964370034FF1C /* Image Pick. */ = {
+			isa = PBXGroup;
+			children = (
+				6514F1BB2A8A2506009F8E23 /* ImagePicker.swift */,
+			);
+			path = "Image Pick.";
+			sourceTree = "<group>";
+		};
+		655B11722A99645E0034FF1C /* mainview */ = {
+			isa = PBXGroup;
+			children = (
+				6524C2E22A88423D005121AF /* SwiftUIFireBaseChatApp.swift */,
+			);
+			path = mainview;
 			sourceTree = "<group>";
 		};
 		65F2217A2A92A15500CD3117 /* Utils */ = {
